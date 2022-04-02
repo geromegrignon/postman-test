@@ -1,0 +1,11 @@
+name: retrieve aio commits
+on:
+  workflow_dispatch
+jobs:
+  commits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get commits
+        uses: gothinkster/realworld-api-action@v1.1
+        with:
+          url: 'https://api.realworld.io/api'
