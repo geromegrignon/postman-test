@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run tests
-        uses: gothinkster/realworld-api-action@v1.7
+        uses: gothinkster/realworld-api-action@v1.8
         with:
           url: 'https://api.realworld.io/api'
